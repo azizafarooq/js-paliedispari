@@ -1,3 +1,5 @@
+const parolaFinale = document.getElementById('parola-finale');
+
 // Chiedo all'utente una parola
 const parolaUtente = prompt("Inserisci una parola:");
 console.log(parolaUtente);
@@ -20,7 +22,11 @@ console.log(parolaInvertitaEsterna);
 // Creo l'istruzione if per verificare se è palindroma
 
 if (parolaUtente === parolaInvertitaEsterna) {
+    parolaFinale.innerText = parolaUtente + " è una parola palindroma!"
     console.log(parolaUtente + " è una parola palindroma!");
 } else {
+    parolaFinale.innerText = parolaUtente + " non è una parola palindroma."
     console.log(parolaUtente + " non è una parola palindroma.");
 }
+
+

@@ -31,3 +31,9 @@
 
 
 ### Pari e Dispari
+- Chiedo all'utente pari o dispari con un prompt
+- Chiedo all'utente un numero da 1 a 5
+- Uso la funzione per generare un numero random
+- Sommo il numero dell'utente a quello del computer
+- Creo una funzione per capire se la somma è pari o dispari
+- Creo una condizione per stabilire il vincitore
